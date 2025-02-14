@@ -39,7 +39,7 @@ const Blogs: React.FC = () => {
       <h1 className="text-2xl font-bold text-[#0F0049] mb-8 text-left">Our Blogs</h1>
 
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex justify-between gap-6">
         {blogs.map((blog) => (
           <div key={blog.id} className="relative group cursor-pointer bg-white">
             <div className="relative w-[355px] h-[450px] overflow-hidden">
@@ -50,7 +50,7 @@ const Blogs: React.FC = () => {
               />
             
             </div>
-            <div className="absolute top-[370px] left-10 p-6 bg-[#FFFFFF]">
+            <div className="absolute text-start top-[370px] left-10 p-6 bg-[#FFFFFF]">
                 <h2 className="text-[24px] font-medium text-[#0F0049] mb-2">
                   {blog.title}
                 </h2>

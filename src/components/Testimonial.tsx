@@ -1,4 +1,4 @@
-// components/Testimonial.tsx
+
 import React from "react";
 import styled from "styled-components";
 
@@ -15,11 +15,11 @@ const Testimonial: React.FC = () => {
   return (
     <TestimonialSection>
       <section className="relative flex flex-col md:flex-row items-start justify-center bg-white py-16 px-8 md:px-20 gap-10">
-        {/* Image Section */}
+      
         <div className="relative flex-shrink-0">
-          {/* Quotation Mark */}
+    
           <div className="absolute -top-6 -left-6 text-black text-6xl font-serif">“</div>
-          {/* Profile Image */}
+      
           <img
             src="/images/director.svg"
             alt="David Calathan"
@@ -40,7 +40,7 @@ const Testimonial: React.FC = () => {
           </p>
         </div>
 
-        {/* Navigation Buttons (Bottom Right) */}
+        {/* Navigation Buttons  */}
         <div className="absolute bottom-10 right-40 flex items-center space-x-4 p-4">
           <button className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
             <ArrowBackIcon className="text-gray-600" />

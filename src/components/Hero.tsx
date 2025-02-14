@@ -1,4 +1,4 @@
-// components/Hero.tsx
+
 import React from "react";
 import styled from "styled-components";
 import DynamicButton from "./Button";
@@ -42,7 +42,8 @@ const Hero: React.FC = () => {
           className="w-full max-w-md lg:max-w-lg rounded-[40px] shadow-lg" 
         />
         {/* Floating Stats Box */}
-        <div className="absolute -bottom-8 right-4 bg-white shadow-md rounded-lg px-4 py-2 flex items-center">
+        {/* <div className="absolute -bottom-8 right-4 bg-white shadow-md rounded-lg px-4 py-2 flex items-center"> */}
+        <div className="absolute bottom-[5vh] right-[3vw] md:bottom-[6vh] md:right-[4vw] lg:-bottom-[5vh] lg:right-[0vw] bg-white shadow-md rounded-lg px-4 py-2 flex items-center">
           <div className="ml-2">
             <div className="flex items-center gap-2">
             <span className="text-yellow-500 text-xl">⭐</span>
